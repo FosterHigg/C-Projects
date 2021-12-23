@@ -1,4 +1,5 @@
-//Foster Higginbotham's File
+//Foster Higginbotham's File.
+//This project will demonstrate the ability to write and apply C code that can process and manipulate strings. 
 
 #include <stdio.h>
 #include <stdlib.h>
