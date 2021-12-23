@@ -1,4 +1,5 @@
-//Foster Higginbotham's File
+//Foster Higginbotham's File.
+//This project will demonstrate the ability to write and apply C code that can keep track of various data in multiple arrays. 
 
 #include <stdio.h>
 #include <stdlib.h>
