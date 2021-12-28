@@ -7,9 +7,40 @@ On this island, the player has the option to go fishing, go digging for rare gem
 As an added bonus, the island’s local townsfolk will buy the fish, gems, or pictures that the player collects. 
 
 The user must be able to select what activity to do, and must be able to perform the activity until they want to do something else.  
-Because the activities rely more on luck and less on skill, you must use a random number generator that tells what the result of each activity is. 
+Since the activities rely more on luck and less on skill, you must use a random number generator that tells what the result of each activity is. 
 For instance, if the player fishes 100 times, they might expect to catch a Snook 25 times. 
+
 Regardless of activity, the player can only hold 5 items (fish, gems, or pictures) in their inventory.  
 Once their inventory gets full, they must finish the current activity and sell what they have.  
 Also, if a player wants to stop an activity at any time, then they must sell whatever items they have before moving to the next activity.  
 When they are done with the entire program, the program must display how much money they received over the course of the entire game. 
+
+Below are the outcome probabilities for each activity.  
+
+
+                  FISHING
+
+Probability     Fish Caught         Sell Value 
+    50%          Nothing                --- 
+    25%          Snook                  500 
+    15%          Trout                  1000 
+    7.5%         Giant Catfish          3500 
+    2.5%         Koi Fish               5000 
+ 
+              DIGGING FOR GEMS
+
+Probability     Gem Unearthed       Sell Value 
+    80%          Nothing                --- 
+    6%           Ruby                   10000 
+    6%           Sapphire               10000 
+    6%           Emerald                10000 
+    2%           Diamond                20000 
+ 
+              BIRD WATCHING 
+
+Probability   Bird Picture Taken    Sell Value 
+    10%         Nothing                 --- 
+    25%         Dove                    500 
+    25%         Crow                    500 
+    25%         Seagull                 500 
+    15%         Blue Jay                1000 
